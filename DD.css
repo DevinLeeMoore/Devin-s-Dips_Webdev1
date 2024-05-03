@@ -5,4 +5,7 @@ background-color: coral;
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
+#footer { 
+ grid-row-start: 3;
+ grid-row-end: 6;
 
