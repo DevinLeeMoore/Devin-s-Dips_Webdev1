@@ -1,29 +1,25 @@
-#header { 
- font-weight: bold;
- color: #00FFFF; 
-}
-
-
-#container {
-background-color: coral;
- display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-#footer { 
- grid-row-start: 3;
- grid-row-end: 6;
+#header {
+  font-weight: bold;
+  color: #00FFFF;
 }
 
 #container {
+  background-color: coral;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   min-width: 900px;
   max-width: 1000px;
   box-shadow: 4px 4px 4px #133926;
-  box-styling: border-box;
+  box-sizing: border-box; 
   background-color: #FAEBD7;
   border: 1.5pt solid #003300;
+}
+
+#footer {
+  grid-row-start: 3;
+  grid-row-end: 6;
 }
