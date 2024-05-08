@@ -3,6 +3,14 @@
   color: #00FFFF;
 }
 
+#nav {
+  padding: 1.5em;
+  font-size: 120%;
+  width: 160px;
+  float: left;
+  font-weight: bold;
+}
+
 #container {
   background-color: #F5F5DC;
   display: grid;
