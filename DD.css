@@ -13,9 +13,10 @@
 #main {
  text-align: center;
  font-weight: bold;
-  
-
+ text-align: justify;
 }
+
+
 .Logo {
   display: block;
   margin-left: auto;
