@@ -10,7 +10,12 @@
   float: left;
   font-weight: bold;
 }
+#main {
+ text-align: center;
+ font-weight: bold;
+  
 
+}
 .Logo {
   display: block;
   margin-left: auto;
